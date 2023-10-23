@@ -184,3 +184,7 @@ textarea {
   padding-bottom: 10px;
   color: grey;
 }
+input,
+input::placeholder {
+    font-size: 1.25rem;
+}
