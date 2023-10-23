@@ -186,9 +186,9 @@ textarea {
 }
 input,
 input::placeholder {
-    font-size: 40px;
+    font-size: 30px;
 }
 textarea,
 textarea::placeholder {
-    font-size: 40px;
+    font-size: 30px;
 }
