@@ -1,0 +1,212 @@
+html {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Handlee", cursive;
+  background-color: #bdbdbd;
+}
+.offcanvas {
+  width: 40% !important;
+}
+.container {
+  margin-top: 55px;
+}
+h4 {
+  color: #20bcd5;
+  text-align: center;
+  padding: 18px 0 18px 0;
+  margin: 0 0 10px 0;
+}
+h4 span {
+  border: 3px solid #20bcd5;
+  padding: 10px;
+  background-color: #787575;
+}
+p {
+  padding: 0;
+  margin: 0;
+  font-size: 20px !important;
+}
+.section {
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+#jumbotron {
+  background-image: url("image/emile-perron-xrVDYZRGdw4-unsplash.jpg");
+  background-size: cover;
+  text-align: center;
+  color: #fff;
+  box-shadow: 5px 5px 2px rgba(255, 255, 255, 0.774);
+}
+.img-circle {
+  border: 3px solid white;
+  border-radius: 50%;
+}
+#jumbotron img {
+  display: block;
+  width: 190px;
+  height: 250px;
+  margin: auto;
+}
+#jumbotron p {
+  padding-top: 5px;
+  margin: 0;
+  font-weight: bold;
+  text-align: center;
+  text-shadow: 5px 5px 2px rgba(21, 55, 204, 0.644);
+}
+#jumbotron small {
+  display: inline-block;
+  font-size: 20px;
+  font-weight: bold;
+  height: 20px;
+  /* background-color: #20bcd5; */
+}
+#jumbotron .ityped {
+  font-weight: bold;
+}
+#about {
+  background-image: url(image/paper-png-transparent-11.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 20%;
+}
+.quote {
+  text-align: right;
+  margin-top: 30px;
+}
+li {
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+iframe {
+  display: block;
+  margin: 5px auto;
+  border: 0px solid #3fb6b2;
+  max-width: 400px;
+  height: 300px;
+}
+hr {
+  border: 0;
+  height: 1px;
+  background: #f36f48;
+}
+form {
+  text-align: center;
+  margin-top: 0;
+}
+.submit {
+  background-color: #3fb6b2;
+  padding: 12px 45px;
+  border-radius: 5px;
+  cursor: pointer;
+  color: #ffffff;
+  border: none;
+  outline: none;
+  margin: 0;
+  font-weight: bold;
+}
+.submit:hover {
+  background-color: #43a09d;
+}
+textarea {
+  height: 100px;
+}
+input,
+textarea {
+  margin-bottom: 10px;
+  padding: 15px 10px 10px;
+  border: 1px solid #cecece;
+  background-color: #efefef;
+  color: #787575;
+  border-radius: 5px;
+  width: 70%;
+  outline: none;
+}
+.face {
+  transform: scale(0.4);
+  margin: 0 auto;
+  display: block;
+  margin-top: -35px;
+  margin-bottom: -25px;
+}
+#contacts img {
+  height: 50px;
+  width: 50px;
+  margin-left: 7px;
+  margin-right: 7px;
+}
+#contacts a {
+  text-decoration: none;
+}
+#contacts input {
+}
+#contacts img:hover {
+  opacity: 0.8;
+}
+#contacts {
+  text-align: center;
+}
+#contacts i {
+  display: inline-block;
+  margin: 0 5px;
+}
+.copyright {
+  text-align: right;
+  padding-bottom: 10px;
+  color: grey;
+}
+input,
+input::placeholder {
+}
+textarea,
+textarea::placeholder {
+}
+.skill-box {
+  max-width: 700px;
+  margin: auto;
+  background-color: rgba(31, 60, 156, 0.733);
+  padding: 20px;
+  position: relative;
+  box-shadow: 5px 5px 2px gray;
+}
+.pita {
+  position: absolute;
+  top: -5px;
+  right: -5px;
+  max-width: 130px;
+}
+.pita-2 {
+  position: absolute;
+  bottom: -35px;
+  right: -5px;
+  max-width: 130px;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+  p {
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  p {
+  }
+  #about {
+    padding: 10%;
+    font-size: 18px;
+  }
+}
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  #jumbotron {
+    background-position: 0 50%;
+  }
+}
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+}
