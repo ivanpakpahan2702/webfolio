@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ivan Pakpahan</title>
+    <link
+      rel="icon"
+      href="https://cdn-icons-png.flaticon.com/512/5602/5602732.png"
+      type="image/x-icon"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Handlee"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav class="navbar bg-transparent fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasNavbar"
+          aria-controls="offcanvasNavbar"
+          aria-label="Toggle navigation"
+          style="
+            color: #20bcd5;
+            border: 3px solid #20bcd5 !important;
+            background-color: bisque;
+          "
+        >
+          <i class="fa-solid fa-bars"></i>
+        </button>
+        <div
+          class="offcanvas offcanvas-end bg-info"
+          tabindex="-1"
+          id="offcanvasNavbar"
+          aria-labelledby="offcanvasNavbarLabel"
+        >
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
+              Ivan Pakpahan
+            </h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#home"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About Me</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#skill">My Skills</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#projects">My Projects</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">My CV</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- end of navbar -->
+    <div class="container">
+      <!-- header start -->
+      <div class="header" id="home">
+        <div id="jumbotron" class="section">
+          <img
+            alt=""
+            class="img-circle"
+            src="image\20190115154814__MG_7966-1-removebg.png"
+          />
+          <div class="text-animated">
+            <p>Ivan Pakpahan</p>
+            <br />
+            <small>I am a </small><br />
+            <small class="ityped"></small>
+          </div>
+          <script src="https://unpkg.com/ityped@0.0.10"></script>
+          <script>
+            window.ityped.init(document.querySelector(".ityped"), {
+              strings: ["Software Enginer...", "Data Enginer..."],
+              loop: true,
+            });
+          </script>
+        </div>
+      </div>
+      <!-- header end -->
+
+      <!-- About Me section start -->
+      <div class="section" id="about">
+        <h4><span>About Me</span></h4>
+        <p>
+          Saya merupakan lulusan S1 Informatika, Institut Teknologi Nasional
+          Bandung tahun 2023. Karena hasil kerja keras dan ketekunan, saya juga
+          berhasil mendapat predikat cumlaude dengan perolehan IPK 3.64. Saya
+          sering mengerjakan proyek mandiri yang berkaitan dengan pembangunan
+          aplikasi berbasis web, data mining, dan robotika. <br />
+          <br />
+          <strong> Kelebihan </strong> : Salah satu kelebihan saya adalah cepat
+          untuk menganalisis suatu permasalahan dan segera menemukan solusi
+          terbaiknya. Saya pernah diberikan proyek untuk mengerjakan pembangunan
+          aplikasi berbasis web dengan deadline yang cukup singkat. Tapi hal
+          tersebut tidak menjadi masalah, karena saya menganggap hal tersebut
+          sebagai tantangan, dan proyek tesebut tetap bisa berfungsi secara
+          maksimal. Salah satu kebiasaan sebelum saya bekerja adalah
+          menganalisis permasalahan yang terjadi lalu mengorganisir seluruh
+          dokumen dan tools yang saya butuhkan untuk menyelesaikan masalah
+          tersebut. <br />
+          <strong>Kelemahan </strong> : Saya sering merasa kurang percaya diri
+          dan kerap merasa gugup saat harus presentasi atau berbicara di depan
+          umum. Untuk mengatasinya, saya biasanya mempersiapkan diri dan juga
+          materi sehari sebelum presentasi.
+        </p>
+        <p class="quote">
+          "Apapun juga yang kamu perbuat, perbuatlah dengan segenap hatimu
+          seperti untuk Tuhan dan bukan untuk manusia."
+        </p>
+      </div>
+      <!-- About Me section end -->
+
+      <!-- My Skills section start -->
+
+      <div class="section">
+        <h4><span id="skill">My Skills</span></h4>
+        <div class="skill-box">
+          <img class="pita" src="image/ribbon-png-808.png" alt="" />
+          <ul>
+            <li>
+              <i class="fa-brands fa-html5 fa-2xl"></i>
+              <div
+                class="progress"
+                role="progressbar"
+                aria-label="Animated striped example"
+                aria-valuenow="75"
+                aria-valuemin="0"
+                aria-valuemax="100"
+              >
+                <div
+                  class="progress-bar progress-bar-striped progress-bar-animated bg-info"
+                  style="width: 75%"
+                ></div>
+              </div>
+            </li>
+            <li>
+              <i class="fa-brands fa-css3 fa-2xl"></i>
+              <div
+                class="progress"
+                role="progressbar"
+                aria-label="Animated striped example"
+                aria-valuenow="75"
+                aria-valuemin="0"
+                aria-valuemax="100"
+              >
+                <div
+                  class="progress-bar progress-bar-striped progress-bar-animated bg-info"
+                  style="width: 75%"
+                ></div>
+              </div>
+            </li>
+            <li>
+              <i class="fa-brands fa-js fa-2xl fa-bounce"></i>
+              <div
+                class="progress"
+                role="progressbar"
+                aria-label="Animated striped example"
+                aria-valuenow="75"
+                aria-valuemin="0"
+                aria-valuemax="100"
+              >
+                <div
+                  class="progress-bar progress-bar-striped progress-bar-animated bg-info"
+                  style="width: 75%"
+                ></div>
+              </div>
+            </li>
+            <li>
+              <i class="fa-brands fa-php fa-2xl"></i>
+              <div
+                class="progress"
+                role="progressbar"
+                aria-label="Animated striped example"
+                aria-valuenow="75"
+                aria-valuemin="0"
+                aria-valuemax="100"
+              >
+                <div
+                  class="progress-bar progress-bar-striped progress-bar-animated bg-info"
+                  style="width: 75%"
+                ></div>
+              </div>
+            </li>
+            <li>
+              <i class="fa-brands fa-python fa-2xl"></i>
+              <div
+                class="progress"
+                role="progressbar"
+                aria-label="Animated striped example"
+                aria-valuenow="75"
+                aria-valuemin="0"
+                aria-valuemax="100"
+              >
+                <div
+                  class="progress-bar progress-bar-striped progress-bar-animated bg-info"
+                  style="width: 75%"
+                ></div>
+              </div>
+            </li>
+            <li>
+              <i class="fa-solid fa-database fa-2xl"></i>
+              <div
+                class="progress"
+                role="progressbar"
+                aria-label="Animated striped example"
+                aria-valuenow="75"
+                aria-valuemin="0"
+                aria-valuemax="100"
+              >
+                <div
+                  class="progress-bar progress-bar-striped progress-bar-animated bg-info"
+                  style="width: 75%"
+                ></div>
+              </div>
+            </li>
+          </ul>
+          <img src="image/ribbon-png-797.png" class="pita-2" alt="" />
+        </div>
+      </div>
+
+      <!-- My Skills section end -->
+
+      <!-- Media section start -->
+      <div class="section">
+        <h4><span>My Projects</span></h4>
+        <div class="row mt-2">
+          <div class="col-md-6">
+            <div id="monitor">
+              <div id="monitorscreen">
+                <iframe
+                  class="embed-responsive-item"
+                  src="https://www.youtube.com/embed/OAtgwyZaUSM?si=ZNAwBuhTkIKfc2wI"
+                  allowfullscreen
+                  frameborder="0"
+                ></iframe>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6">
+            <div id="monitor">
+              <div id="monitorscreen">
+                <div class="embed-responsive embed-responsive-16by9">
+                  <iframe
+                    class="embed-responsive-item"
+                    src="https://www.youtube.com/embed/TPSZhsB0-f0?si=rQeENG9zzfnXzdgX"
+                    allowfullscreen
+                    frameborder="0"
+                  ></iframe>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row mt-5">
+          <div class="col-md-6">
+            <div id="monitor">
+              <div id="monitorscreen">
+                <div class="embed-responsive embed-responsive-16by9">
+                  <iframe
+                    class="embed-responsive-item"
+                    src="https://www.youtube.com/embed/3XpBA3YQY8s?si=oxsUgdamHxWjGrNw"
+                    allowfullscreen
+                    frameborder="0"
+                  ></iframe>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6">
+            <div id="monitor">
+              <div id="monitorscreen">
+                <div class="embed-responsive embed-responsive-16by9">
+                  <iframe
+                    class="embed-responsive-item"
+                    src="https://www.youtube.com/embed/mTJ-vFU5maA?si=ga8CMcQLOSXVyox6"
+                    allowfullscreen
+                    frameborder="0"
+                  ></iframe>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Media section end -->
+
+      <!-- Form section start -->
+      <!-- Submit won't work because no server is associated with it now -->
+      <div class="section">
+        <h4><span>Contact Me</span></h4>
+        <form>
+          <input name="name" placeholder="Name" type="text" required /><br />
+          <input name="email" placeholder="Email" type="email" required /><br />
+          <textarea name="message" placeholder="Message" required></textarea>
+          <!--<input type="submit" value="SEND" class="submit" />-->
+          <br />
+          <button class="btn btn-primary" disabled>Send</button>
+        </form>
+      </div>
+      <!-- Form section end -->
+
+      <!-- Contacts section start -->
+
+      <!-- You can import fontawesome for the icons -->
+      <div class="section" id="contacts">
+        <h4><span>Follow Me</span></h4>
+        <div>
+          <a href="https://github.com/ivanpakpahan2702" target="_blank">
+            <i class="bi bi-github"></i>
+          </a>
+          <a href="http://instagram.com/ivanpakpahan27">
+            <i class="bi bi-instagram"></i>
+          </a>
+        </div>
+      </div>
+
+      <!-- Contacts section end -->
+
+      <div class="copyright">&copy; 2023</div>
+
+      <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"
+      ></script>
+      <!-- partial -->
+    </div>
+  </body>
+</html>
