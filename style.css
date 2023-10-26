@@ -305,6 +305,8 @@ textarea::placeholder {
     margin-top: -50px;
     z-index: -1;
   }
+  .skill-box ul li img {
+  }
 }
 
 /* Small devices (landscape phones, 450px and up) */
@@ -312,6 +314,9 @@ textarea::placeholder {
   #monitor img {
     margin-top: -55px;
     z-index: -1;
+  }
+  .skill-box ul li img {
+    max-width: 50% !important;
   }
 }
 
