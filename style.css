@@ -303,6 +303,7 @@ textarea::placeholder {
 @media (max-width: 315px) {
   #monitor img {
     margin-top: -50px;
+    z-index: -1;
   }
 }
 
